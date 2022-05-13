@@ -1,0 +1,186 @@
+body{
+    margin: 0;
+}
+
+.contain{
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+}
+
+.welcome{
+    position: absolute;
+    height: 65px;
+    left: 741px;
+    top: 186px;
+
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 65px;
+
+    color: #282729;
+}
+
+#id, #password{
+    position: absolute;
+    background: #FDFDFD;
+    border: 1px solid #ADADAD;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 441px;
+    height: 65px;
+    left: 739px;
+}
+
+#id{
+    top: 334px;
+}
+
+#password{
+    top: 434px;
+}
+
+input::placeholder{
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    position: absolute;
+    padding-top: 16.5px;
+    padding-left: 20px;
+    line-height: 26px;
+    color: #606060;
+}
+
+#login{
+    position: absolute;
+    width: 83px;
+    height: 26px;
+    left: 779px;
+    top: 524px;
+
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #282729;
+}
+
+#loginButton{
+    border: 1px solid #4558FF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    position: absolute;
+    top: 602px;
+    left: 739px;
+    width: 441px;
+    height: 70px;
+    background-color: #4558FF;
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 36px;
+    color: white;
+}
+
+#loginButton:hover{
+    border: 1px solid #4558FF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    position: absolute;
+    top: 602px;
+    left: 739px;
+    width: 441px;
+    height: 70px;
+    background-color: white
+    ;
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 36px;
+    color: #4558FF;
+}
+
+#line{
+    position: absolute;
+    width: 124px;
+    height: 0px;
+    left: 739px;
+    top: 774px;
+
+    border: 1px solid #CECECE;
+}
+
+#method{
+    position: absolute;
+    height: 26px;
+    left: 881px;
+    top: 759px;
+
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height */
+
+
+    color: #919191;
+}
+
+#signpath{
+    position: absolute;
+    height: 26px;
+    left: 819px;
+    top: 983px;
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #B0B0B0;
+}
+
+#rectangle{
+    position: absolute;
+    width: 123px;
+    height: 73px;
+    left: 739px;
+    top: 825px;
+
+    background: #FFFFFF;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+}
+
+#autologin {
+    position: absolute;
+    top: 524px;
+    left: 739px;
+    background: #FCFCFC;
+    border: 1px solid #CBCBCB;
+    box-sizing: border-box;
+    width: 22px;
+    height: 22px;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#autologin:checked {
+    background-color: #4558FF;
+}
+
+input[type="text"]
+{
+    font-size:18px;
+}

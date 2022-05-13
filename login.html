@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <link href="login.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="module" src="login.js"></script>
+    <meta charset="utf-8" />
+    <title>Login Page</title>
+  </head>
+  <body>
+    <script>
+      document.body.style.zoom = window.innerWidth / 1940;
+      window.onresize = function (event) {
+        var innerWidth = window.innerWidth;
+        document.body.style.zoom = innerWidth / 1940;
+      };
+    </script>
+    <div class="contain"></div>
+
+    <img
+      src="logo.png"
+      style="
+        width: 139px;
+        height: 59px;
+        top: 42px;
+        left: 876px;
+        position: absolute;
+      "
+    />
+
+    <div class="welcome">Welcome to OUTTA</div>
+
+    <form>
+      <input type="text" name="id" id="id" placeholder="이메일/아이디" />
+      <input type="text" name="password" id="password" placeholder="비밀번호" />
+      <label
+        ><input
+          type="checkbox"
+          name="autologin"
+          value="autologin"
+          id="autologin"
+        />
+        <div id="login">자동로그인</div></label
+      >
+    </form>
+
+    <div id="login" style="left: 1076px; width: 110px">ID/PASS 찾기</div>
+
+    <div>
+      <button name="login" id="loginButton">로그인</button>
+    </div>
+    <img src="Vector 7.png" id="line" />
+    <div id="method">다른 방법으로 로그인</div>
+    <img src="Vector 7.png" id="line" style="left: 1057px" />
+
+    <div id="rectangle"></div>
+    <div id="rectangle" style="left: 898px"></div>
+    <div id="rectangle" style="left: 1057px"></div>
+
+    <img
+      src="pngwing 1.png"
+      style="position: absolute; top: 839px; left: 780px"
+    />
+    <img
+      src="pngwing.png"
+      style="position: absolute; top: 831px; left: 929px"
+    />
+    <img
+      src="image 31.png"
+      style="position: absolute; top: 838px; left: 1096px"
+    />
+
+    <div id="signpath">아직 회원이 아니신가요? >> 회원가입</div>
+  </body>
+</html>

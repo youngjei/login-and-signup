@@ -1,0 +1,232 @@
+body{
+    margin: 0;
+}
+
+.contain{
+    position: relative;
+    width: 1920px;
+    height: 1849px;
+}
+
+.idtext{
+    position: absolute;
+    height: 21px;
+    left: 739px;
+    top: 250px;
+
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+
+    color: #000000;
+}
+
+#id, #password, #pwverify, #name, #email, #phone,  #num{
+    position: absolute;
+    background: #FDFDFD;
+    border: 1px solid #ADADAD;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 441px;
+    height: 65px;
+    left: 739px;
+}
+
+#id{
+    top: 281px;
+}
+
+#password{
+    top: 393px;
+}
+
+#pwverify{
+    top: 505px;
+}
+
+#name{
+    top: 662px;
+}
+
+#email{
+    top: 1002px;
+}
+
+#phone{
+    top: 1381px;
+    width:279px;
+}
+
+#num{
+    top: 1456px;
+}
+
+#receiver{
+    border: 1px solid #4558FF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    position: absolute;
+    top: 1381px;
+    left: 1027px;
+    width: 153px;
+    height: 65px;
+    background-color: white;
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #4558FF;
+}
+
+input::placeholder{
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    position: absolute;
+    padding-top: 16.5px;
+    padding-left: 20px;
+    line-height: 26px;
+    color: #606060;
+}
+
+input[type="text"]
+{
+    font-size:18px;
+}
+
+#year, #month, #day{
+    position: absolute;
+    background: #FDFDFD;
+    border: 1px solid #ADADAD;
+    box-sizing: border-box;
+    border-radius: 5px;
+    top:774px;
+    left:739px;
+    width: 140.33px;
+    height: 65px;
+}
+
+#month{
+    left: 887px;
+}
+
+#day{
+    left: 1040px;
+}
+
+#gender{
+    background: #FDFDFD;
+    border: 1px solid #ADADAD;
+    box-sizing: border-box;
+    border-radius: 5px;
+    position:absolute;
+    top: 890px;
+    left: 739px;
+    width: 441px;
+    height: 65px;
+}
+
+#job{
+    background: #FDFDFD;
+    border: 1px solid #ADADAD;
+    box-sizing: border-box;
+    border-radius: 5px;
+    position:absolute;
+    top: 1114px;
+    left: 739px;
+    width: 441px;
+    height: 65px;
+}
+
+#phonenum{
+    background: #FDFDFD;
+    border: 1px solid #ADADAD;
+    box-sizing: border-box;
+    border-radius: 5px;
+    position:absolute;
+    top: 1306px;
+    left: 739px;
+    width: 441px;
+    height: 65px;
+}
+
+select option[value=""][disabled] {
+	display: none;
+}
+
+select {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    position: absolute;
+    padding-left: 20px;
+    line-height: 26px;
+    color: black;
+    border: 1px solid;
+    border-radius: 3px;
+    -webkit-appearance: none; /* 화살표 없애기 for chrome*/
+    -moz-appearance: none; /* 화살표 없애기 for firefox*/
+    appearance: none; /* 화살표 없애기 공통*/
+}
+
+select::-ms-expand {
+    display: none; /* 화살표 없애기 for IE10, 11*/
+}
+
+#checkplz{
+    position: absolute;
+    height: 26px;
+    left: 835px;
+    top: 1571px;
+
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height */
+
+
+    color: #FF0000;
+}
+
+#signUp:hover{
+    border: 1px solid #4558FF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    position: absolute;
+    top: 1647px;
+    left: 739px;
+    width: 441px;
+    height: 70px;
+    background-color: white;
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 36px;
+    color: #4558FF;
+}
+
+#signUp{
+    border: 1px solid white;
+    box-sizing: border-box;
+    border-radius: 5px;
+    position: absolute;
+    top: 1647px;
+    left: 739px;
+    width: 441px;
+    height: 70px;
+    background-color: #4558FF;
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 36px;
+    color: white;
+}
