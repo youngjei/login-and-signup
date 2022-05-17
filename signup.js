@@ -59,6 +59,7 @@ document.getElementById("signUp").addEventListener("click", function () {
           username: username,
           email: email,
           admin: false,
+          member: true,
           name: name,
           birthYear: year,
           birthMonth: month,
